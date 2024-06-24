@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T06:41:25.252Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="DxmdhFjxL-E6mAZve7Vk" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T07:13:50.051Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="zWlTSnWYQzfi08mETk1U" version="24.6.0" type="github">
   <diagram name="第 1 页" id="Xy6LXEZvLt63igF1gt5p">
     <mxGraphModel dx="1562" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="dYdbBrUcHzNHhPv-ekWF-1" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TqsmYCLOViqrvoBPUzZE-74">
+          <mxGeometry x="-0.4929" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TqsmYCLOViqrvoBPUzZE-22" value="限流+熔断判断" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="515" width="170" height="80" as="geometry" />
         </mxCell>
@@ -136,6 +141,11 @@
         <mxCell id="TqsmYCLOViqrvoBPUzZE-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TqsmYCLOViqrvoBPUzZE-46" target="TqsmYCLOViqrvoBPUzZE-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dYdbBrUcHzNHhPv-ekWF-3" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TqsmYCLOViqrvoBPUzZE-73">
+          <mxGeometry x="-0.5524" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TqsmYCLOViqrvoBPUzZE-46" value="vpn登录态判断" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="950" width="180" height="70" as="geometry" />
         </mxCell>
@@ -151,6 +161,11 @@
               <mxPoint x="555" y="1120" />
               <mxPoint x="780" y="1120" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYdbBrUcHzNHhPv-ekWF-2" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TqsmYCLOViqrvoBPUzZE-66">
+          <mxGeometry x="-0.6897" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TqsmYCLOViqrvoBPUzZE-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="TqsmYCLOViqrvoBPUzZE-62" target="TqsmYCLOViqrvoBPUzZE-67" edge="1">
